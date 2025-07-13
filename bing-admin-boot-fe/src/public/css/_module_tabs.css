@@ -1,0 +1,43 @@
+
+.bh-module .ant-tabs-nav{  
+    background-color: none;
+    margin-top: 20px;
+}
+
+.bh-module  .ant-tabs-nav-wrap{
+    margin-left: 10px;
+}
+.bh-module .ant-tabs .ant-tabs-tab{
+    font-weight: 500;
+    font-size: 13px;
+    padding: 3px 5px;
+    color: #505656 !important;
+}
+
+.bh-module .ant-tabs .ant-tabs-tab .ant-tabs-tab-btn:focus{
+    color: #1e4146 !important;
+}
+.bh-module .ant-tabs .ant-tabs-tab-active{    
+    background: #ffffff;
+    /* border-top-left-radius: 5px; */
+    /* border-top-right-radius: 5px; */
+    border-right: 1px solid #c1d5d7;
+    /* border-radius: 5px; */
+    border-top: 1px solid #c1d5d7;
+    border-left: 1px solid #c1d5d7;
+}
+.bh-module .ant-tabs .ant-tabs-tab-active .ant-tabs-tab-btn{
+    font-weight: 500;
+    color: #0b5b64;
+}
+.bh-module .ant-tabs .ant-tabs-ink-bar{
+    background: none;
+    /* background: #0aa7d3; */
+}
+.bh-module .ant-tabs-content-holder{
+    margin: 5px 10px;
+}
+.bh-module .ant-tabs .ant-tabs-tab-btn{
+    transition: none;
+    padding: 7px;
+}

@@ -1,0 +1,30 @@
+.bh-nav{
+    width: 100%;
+    border-top: 2px solid #f4f5f2;
+}
+.bh-nav  .ant-menu-title-content  div{
+    display: block;
+    width: 100%;
+    float:left;
+}
+.bh-nav  .bh-nav-icon, .bh-nav-label{
+    float: left;
+    font-size: 20px;
+    font-family: emoji;
+}
+.bh-nav  .bh-nav-label{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.bh-nav a{
+    color: #3b3b27 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.ant-menu-submenu-open > ul{
+    margin-left: 20px;
+}
+.ant-menu-submenu-open > ul .bh-nav-label{
+    font-size: 16px;
+}

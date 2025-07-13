@@ -1,0 +1,164 @@
+{
+    "common":{
+        "button":{
+            "save":"Save",
+            "del":"Delete",
+            "search":"Search",
+            "reset":"Reset",
+            "add":"Add",
+            "create":"Create",
+            "print":"Print",
+            "update":"Update",
+            "export":"Export To",
+            "singin":"Login",
+            "signout":"Logout",
+            "filter":"Filter",
+            "adv":"Advance"
+        },
+        "info":{ 
+            "email":"Email",
+            "address":"Address",
+            "phoneNo":"Phone Number"
+        },
+        "dataGrid":{
+            "no":"No"
+           
+        },
+        "popup":{
+            "title":{
+               "warning" : "Warning",
+               "saveConfirm" : "Do you want to save this ?",
+               "error" : "Error"
+            },
+            "footer":{
+                "okBtn" : "OK",
+                "cancelBtn" : "Cancel",
+                "save":{
+                    "okBtn" : "Save",
+                    "cancelBtn" : "No"
+                }
+            }
+        }
+    },
+    "mainMenu":{
+        "warehouse":{
+            "name":"Ware House",
+            "child":{
+                "product":"Product",
+                "productCategory":"Product Category",
+                "productGroup":"Product Group"
+            }
+        },
+        "partner":{
+            "name":"Partner",
+            "child":{
+                "supplier":"Supplier",
+                "delivery":"Delivery",
+                "salesCollaborator":"Sales Collaborator"
+            }
+        },
+        "hr":{
+            "name":"HR"
+        },
+        "delivery":{
+            "name":"Delivery",
+            "child":{
+            }
+        },
+        "task":{
+            "name":"Task",
+            "child":{
+            }
+        },
+        "setting":{
+            "name":"Setting",
+            "child":{
+                "baseCode":"Base Code",
+                "permission":"Permission"
+            }
+        }
+    },
+    "module":{
+        "item":{
+            "warehouse":{
+                "product":{
+                    "productCode":"Product Code",
+                    "productName":"Product Name",
+                    "productStatus":"Product Status",
+                    "importStatus":"Import Status",
+                    "price":"Price",
+                    "inStocksQty":"In Stock Quantity"
+                },
+                "productCategory":{
+                    "productCategoryCode":"Product Category Code",
+                    "productCategoryName":"Product Category Name"
+                },
+                "productGroup":{
+                    "productGroupCode":"Product Group Code",
+                    "productGroupName":"Product Group Name"
+                }
+            },
+            "partner":{
+                "supplier":{
+                    "supplierCode":"Supplier Code",
+                    "supplierName":"Supplier Name",
+                    "fax":"Fax",
+                    "websiteAddr":"Website"
+                },
+                "delivery":{
+                },
+                "salesCollaborator":{
+                }
+            },
+            "hr":{},
+            "delivery":{},
+            "task":{},
+            "setting":{
+                "baseCode":{
+                    "commonCode":"Common Code",
+                    "commonCodeName":"Common Code Name",
+                    "commonCodeType":"Common Code Type",
+                    "commonCodeUseYN":"Usage",
+                    "generalCode":"General Code",
+                    "generalCodeValue":"Value",
+                    "generalCodeUseYN":"Usage",
+                    "workCode":"Work Code"
+                },
+                "permission":{}
+            }
+        },
+        "popup":{
+            "setting":{
+                "baseCode":{
+                        "commonCodeSelectionWarning" : "Please select at least 1 Common Code !",
+                        "commonCodeCreationTitle":"Create New Common Code"
+                },
+                "permission":{}
+            }
+        },
+        "tabs":{
+            "warehouse":{
+                "product":{
+                    "list":"All Products",
+                    "statistic":"Statistic",
+                    "create":"Create Product"
+                },
+                "productClassification":{
+                    "productCategory":"All Product Categories",
+                    "productGroup":"All Product Groups"
+                }
+            },
+            "partner":{
+                "supplier":"List Suppliers",
+                "delivery":{
+                },
+                "salesCollaborator":{
+                }
+            },
+            "setting":{
+                "baseCode":"BaseCode",
+                "permission":{}
+            }
+        }
+    }
+}

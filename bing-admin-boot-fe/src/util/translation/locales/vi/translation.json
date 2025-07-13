@@ -1,0 +1,163 @@
+{
+    "common":{
+        "button":{
+            "save":"Lưu",
+            "del":"Xóa",
+            "search":"Tìm Kiếm",
+            "reset":"Xóa",
+            "add":"Thêm",
+            "create":"Tạo Mới",
+            "print":"In",
+            "update":"Cập Nhật",
+            "export":"Xuất Ra",
+            "singin":"Đăng Nhập",
+            "signout":"Đăng Xuất",
+            "filter":"Lọc",
+            "adv":"Nâng Cao"
+        },
+        "info":{
+            "email":"Email",
+            "address":"Địa Chỉ",
+            "phoneNo":"Số ĐT"
+        },
+        "dataGrid":{
+            "no":"STT"
+        },
+        "popup":{
+            "title":{
+               "warning" : "Cảnh Báo",
+               "saveConfirm" : "Bạn Có Muốn Lưu Lại Không ?",
+               "error" : "Lỗi"
+            },
+            "footer":{
+                "okBtn" : "Đã hiểu",
+                "cancelBtn" : "Thoát",
+                "save":{
+                    "okBtn" : "Lưu",
+                    "cancelBtn" : "Không"
+                }
+            }
+        }
+    },
+    "mainMenu":{
+        "warehouse":{
+            "name":"Quản Lý Kho",
+            "child":{
+                "product":"Sản Phẩm",
+                "productCategory":"Danh Mục Sản Phẩm",
+                "productGroup":"Nhóm Sản Phẩm"
+            }
+        },
+        "partner":{
+            "name":"Đối Tác",
+            "child":{
+                "supplier":"Nhà Cung Cấp",
+                "delivery":"Đối Tác Giao Hàng",
+                "salesCollaborator":"Cộng Tác Viên Bán Hàng"
+            }
+        },
+        "hr":{
+            "name":"Quản Lý Nhân Sự"
+        },
+        "delivery":{
+            "name":"Quản Lý Giao Nhận",
+            "child":{
+            }
+        },
+        "task":{
+            "name":"Quản Lý Công Việc",
+            "child":{
+            }
+        },
+        "setting":{
+            "name":"Cài Đặt",
+            "child":{
+                "baseCode":"Mã Cơ Sở",
+                "permission":"Quyền Hạn"
+            }
+        }
+    },
+    "module":{
+        "item":{
+            "warehouse":{
+                "product":{
+                    "productCode":"Mã Sản Phẩm",
+                    "productName":"Tên Sản Phẩm",
+                    "productStatus":"Tình Trạng",
+                    "importStatus":"Trạng Thái Nhập Kho",
+                    "price":"Giá Bán",
+                    "inStocksQty":"Số Lượng Tồn Kho"
+                },
+                "productCategory":{
+                    "productCategoryCode":"Mã Danh Mục",
+                    "productCategoryName":"Danh Mục"
+                },
+                "productGroup":{
+                    "productGroupCode":"Mã Nhóm",
+                    "productGroupName":"Nhóm Sản Phẩm"
+                }
+            },
+            "partner":{
+                "supplier":{
+                    "supplierCode":"Mã Nhà Cung Cấp",
+                    "supplierName":"Tên Nhà Cung Cấp",
+                    "fax":"Fax",
+                    "websiteAddr":"Website"
+                },
+                "delivery":{
+                },
+                "salesCollaborator":{
+                }
+            },
+            "hr":{},
+            "delivery":{},
+            "task":{},
+            "setting":{
+                "baseCode":{
+                    "commonCode":"Mã Cấp 1",
+                    "commonCodeName":"Tên",
+                    "commonCodeType":"Loại",
+                    "commonCodeUseYN":"Sử Dụng",
+                    "generalCode":"Mã Cấp 2",
+                    "generalCodeValue":"Giá Trị",
+                    "generalCodeUseYN":"Sử Dụng",
+                    "workCode":"Phân Loại Chức Năng"
+                },
+                "permission":{}
+            }
+        },
+        "popup":{
+            "setting":{
+                "baseCode":{
+                        "commonCodeSelectionWarning" : "Vui lòng chọn ít nhất 1 mã cơ sở",
+                        "commonCodeCreationTitle":"Tạo Mới Mã Cơ Sở"
+                },
+                "permission":{}
+            }
+        },
+        "tabs":{
+            "warehouse":{
+                "product":{
+                    "list":"Danh Sách Sản Phẩm",
+                    "statistic":"Thống Kê",
+                    "create":"Tạo Sản Phẩm"
+                },
+                "productClassification":{
+                    "productCategory":"Danh Sách Phân Loại",
+                    "productGroup":"Danh Sách Nhóm Sản Phẩm"
+                }
+            },
+            "partner":{
+                "supplier":"Danh Sách Nhà Cung Cấp",
+                "delivery":{
+                },
+                "salesCollaborator":{
+                }
+            },
+            "setting":{
+                "baseCode":"Mã Cơ Sở",
+                "permission":{}
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+
+  .bh-search-form .ant-row{
+    height: 40px;
+  }
+ 
+  /**
+  Width of form item 
+  **/ 
+  .bh-form-input, .bh-form-select{
+    float: left;
+  }
+  .bh-form-input.w-80{
+    width: 80px;
+  }
+  .bh-form-input.w-120{
+    width: 120px;
+  }
+  .bh-form-input.w-200{
+    width: 200px;
+  }
+  .bh-form-input.w-180{
+    width: 180px;
+  }
+  .bh-form-input.w-400{
+    width: 400px;
+  }
+  
+  .bh-form-input-vertical{
+    padding-bottom: 9px;
+  }
+  .bh-form-input .ant-input-prefix{
+    color: #3c3333;
+    background: #ededed;
+    padding: 3px 10px;
+    width: 35px;
+   }
+  
+  .bh-form-select.w-120{
+    width: 120px;
+  }
+  .bh-form-select.w-180{
+    width: 180px;
+  }
+  .bh-form-select.w-200{
+    width: 200px;
+  }
+  .bh-form-select.w-285{
+    width: 285px;
+  }
+  .bh-form-label label{
+    color: #383623 !important;
+    font-size: 13px !important;
+    font-weight: 600;
+  }
+  .bh-btn-group{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+ .bh-btn-disaled{
+    background: #dfdfdf !important;
+    color: #6b6b6b !important;
+    border: none !important;
+  }
+ .bh-btn{    
+   background: #384a4d;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1px 15px;
+    height: 35px;
+  }
+  
+ .bh-btn.reset{    
+    background: #ffffff;
+    color: #5b7274;
+    border: 1px solid #2b6f75;
+  }
+  .bh-btn:not(:disabled):hover{
+    background: #ffffff;
+    color: #1394a0 !important;
+    border: 1px solid #0bbdc9 !important;
+  }
+  .bh-btn .bh-btn-icon{
+    padding-right: 10px;
+  }
+  .bh-btn span{
+    font-size: 19px;
+  }
