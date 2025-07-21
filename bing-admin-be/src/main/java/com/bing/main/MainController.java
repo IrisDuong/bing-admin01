@@ -7,4 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/mainController")
 public class MainController {
 
+public void index(){
+	system.out.println("Hello to Bing House");
 }
